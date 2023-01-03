@@ -44,7 +44,7 @@ jobs:
         run: npm run lint
 
       - name: Run local instance for link checking ⌛️
-        run: npm run start
+        run: npm run dev
 
       - name: Check links with linkcheck 🔗✅
         uses: filiph/linkcheck@2.0.23
