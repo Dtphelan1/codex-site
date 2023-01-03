@@ -49,6 +49,7 @@ jobs:
         with:
           arguments: https://dtphelan1.github.io/codex-site/ -e
   link-check:
+    needs: cd
     runs-on: ${{ matrix.os }}
 
     strategy:
