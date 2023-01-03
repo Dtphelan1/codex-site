@@ -48,3 +48,16 @@ jobs:
         uses: filiph/linkcheck@2.0.23
         with:
           arguments: https://dtphelan1.github.io/codex-site/ -e
+  link-check:
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        node: [v16.7.0]
+
+    steps:
+      - name: Run linkcheck against post-deploy URL 🔗✅
+        uses: filiph/linkcheck@2.0.23
+        with:
+          arguments: https://dtphelan1.github.io/codex-site/ -e

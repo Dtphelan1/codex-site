@@ -54,7 +54,7 @@
         <span class="underline"
           ><a
             target="_blank"
-            href="https://confluence.hl7.org/display/COD/mCODE+Community+of+Practice#:~:text=CodeX%20Community%20of%20Practice%20(CoP,and%20other%20health%20information%20systems."
+            href="https://confluence.hl7.org/display/COD/mCODE+Community+of+Practice"
             >Community of Practice (CoP)</a
           ></span
         >
