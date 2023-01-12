@@ -251,7 +251,7 @@
         />
       </div>
       <div class="flex flex-col gap-y-4 health-domains my-10">
-        <div>
+        <div id="cancer-first-section">
           <h2 tabindex="0" class="font-black satoshi-bold font-20px pb-2">
             Cancer
           </h2>
@@ -261,8 +261,6 @@
             standard enabling high-quality data capture for cancer that can be
             widely adopted.
           </p>
-        </div>
-        <div>
           <p tabindex="0">
             <span class="satoshi-bold">70+ oncology elements</span> in use at
             Dana-Farber Cancer Institute, MD Anderson Center, Massachusetts
@@ -271,20 +269,13 @@
             organizations.
           </p>
         </div>
-        <p tabindex="0" class="underline">
-          <a
-            class="flex"
-            target="_blank"
-            href="https://confluence.hl7.org/display/COD/Oncology"
-            >See Our Work <img class="ml-2" src="~/assets/img/arrow.svg"
-          /></a>
-        </p>
+        <SeeOurWork link="https://confluence.hl7.org/display/COD/Oncology" />
         <div class="border-b border-solid border-faintgrey pb-2 lg:pt-0"></div>
-        <div>
+        <div id="genomics-first-section">
           <div class="mb-3 mt-1 lg:mb-0">
             <span class="domain-badge whitespace-nowrap">NEW DOMAIN</span>
           </div>
-          <h2 tabindex="0" class="font-black satoshi-bold font-20px">
+          <h2 tabindex="0" class="font-black satoshi-bold font-20px pb-2">
             Genomics
           </h2>
           <p tabindex="0">
@@ -293,8 +284,9 @@
             workflows, and patient outcomes from all areas of clinical care.
           </p>
         </div>
+        <SeeOurWork link="https://confluence.hl7.org/display/COD/Genomics" />
         <div class="border-b border-solid border-faintgrey pt-1 lg:pt-0"></div>
-        <div>
+        <div id="cardiovascular-health-first-section">
           <div class="mb-3 mt-1 lg:mb-0">
             <span class="domain-badge whitespace-nowrap">NEW DOMAIN</span>
           </div>
@@ -308,6 +300,9 @@
             healthcare.
           </p>
         </div>
+        <SeeOurWork
+          link="https://confluence.hl7.org/display/COD/Cardiovascular"
+        />
       </div>
     </div>
     <div class="bg-darkgrey text-white">
