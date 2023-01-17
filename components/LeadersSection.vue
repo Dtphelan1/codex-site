@@ -16,7 +16,7 @@
           :title="leader['image-alt']"
           :alt="leader['image-alt']"
           class="pb-2.5"
-          :src="require(`~/assets/img/${leader['image']}`)"
+          :src="require(`~/assets/img/headshots/${leader['image']}`)"
         />
         <a
           tabindex="2"
