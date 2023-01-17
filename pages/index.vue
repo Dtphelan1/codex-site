@@ -350,7 +350,7 @@
               tabindex="0"
               class="satoshi-bold font-black font-40px leading-9"
             >
-              42
+              44
             </h1>
             <h2 tabindex="0" class="font-16px">
               <a
